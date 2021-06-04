@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Goprojects/golang-data-structure/cpp-conf/binary-heap.cpp
+utility
+-
+vector
+-
+
+C:/Goprojects/golang-data-structure/cpp-conf/main.cpp
+iostream
+-
+chrono
+-
+binary-heap.cpp
+C:/Goprojects/golang-data-structure/cpp-conf/binary-heap.cpp
+segment-tree.cpp
+C:/Goprojects/golang-data-structure/cpp-conf/segment-tree.cpp
+
+C:/Goprojects/golang-data-structure/cpp-conf/segment-tree.cpp
+
